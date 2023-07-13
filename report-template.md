@@ -1,14 +1,12 @@
 # Module 12 Report Template
 
 ## Overview of the Analysis
+This dataset is a historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers.
+The data has about 77536 rows and 8 columns, the rows, reflecting how much people borrowed(loan_size), the interest rate of the loan(interest_rate), income of the borrower(borrower_income), number of accounts been held by these borrowers, derogatory_marks, total_debt, and their loan status (loan_status). Thus, value of 0 in the “loan_status” column means that the loan is healthy. And value of 1 means that the loan has a high risk of defaulting
+The value_counts function reveals, approximately 3.23% (2,500) are non-performing loans, out of the 77,356 loans from the raw data
 
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
-* Explain the purpose of the analysis.
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-* Describe the stages of the machine learning process you went through as part of this analysis.
-* Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
+
 
 ## Results
 
