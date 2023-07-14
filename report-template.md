@@ -13,17 +13,9 @@ The value_counts function reveals, approximately 3.23% (2,500) are non-performin
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 * Machine Learning Model 1:
-  * Description of Model 1 Accuracy, Precision, and Recall scores.
+ In Model 1, the accuracy score of approximately 99.18% reveals its reliability in reasonably predicting the credit worthiness of potential borrowers. The model also predicted a total of 563 defaults('1') in contrast with the actual of 619 (563 + 56), approximately 91% accurate prediction of '1' (non-performing loans or defaults), with a 0.85 precision score.
 
 
 
 * Machine Learning Model 2:
-  * Description of Model 2 Accuracy, Precision, and Recall scores.
-
-## Summary
-
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
-* Which one seems to perform best? How do you know it performs best?
-* Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
-
-If you do not recommend any of the models, please justify your reasoning.
+  Model 2 accuracy score went up to approximately 99.38% from the previous 99.18%. Also, the model's predictive power of default loans rose to 99% from 91% with a slightly low precision score of 0.84, but relatively remained at approximately 99% predictive power for the healthy (performing) loan, with a precision score of 1.
